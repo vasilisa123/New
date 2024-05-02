@@ -1,0 +1,24 @@
+.page__two__block p {
+    margin: 36px 0px;
+    font-weight: 600;
+}
+.page__two__block input {
+    max-width: 343px;
+    margin: 18px 10px;
+    padding: 12px;
+    border-radius: 2px;
+}
+.page__two__block ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    border-bottom: 1px solid rgba(117, 101, 125, 0.2);
+}
+.page__two__block ul li:last-child {
+    border-bottom: none;
+}
+label {
+    text-align: left;
+}
