@@ -1,0 +1,35 @@
+.head__text {
+    background: linear-gradient(to right, rgba(128, 89, 238, 1) 10%, rgba(245, 245, 245, 1)60%);
+}
+.values {
+    margin: 36px 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.value {
+    --webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 4px 2px;
+    border:1px solid rgba(117, 101, 125, 0.2);
+    border-radius: 20px;
+    padding: 5px 16px;
+    font-size: 13px;
+    line-height: 13.2px;
+    font-weight: 500;
+    color: rgba(6, 6, 6, 1);
+    font-family: Montserrat;
+}
+.value:hover {
+    background: rgba(128, 89, 238, 1);
+    color: white;
+}
+.value:active {
+    background: rgba(128, 89, 238, 1);
+    color: white;
+}
+.value:checked ~ label {
+    background:  rgba(128, 89, 238, 1);
+    color: white;
+}
