@@ -20,6 +20,7 @@
     font-weight: 500;
     color: rgba(6, 6, 6, 1);
     font-family: Montserrat;
+    background: none;
 }
 .value:hover {
     background: rgba(128, 89, 238, 1);
