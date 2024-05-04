@@ -1,6 +1,6 @@
 .head__text {
     color: rgba(255, 255, 255, 1);
-    background: linear-gradient(to right, rgba(128, 89, 238, 1) 20%, rgba(245, 245, 245, 1)82%);
+    background: linear-gradient(to right, rgba(128, 89, 238, 1) 20%, rgba(255, 255, 255, 1)82%);
 }
 .color__buttoms {
     display: flex;
