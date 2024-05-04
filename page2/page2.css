@@ -6,7 +6,7 @@
     display: flex;
 }
 .head__text {
-    background: linear-gradient(to right, rgba(128, 89, 238, 1) 0%, rgba(245, 245, 245, 1)24%);
+    background: linear-gradient(to right, rgba(128, 89, 238, 1) 0%, rgba(255, 255, 255, 1)24%);
 }
 .page__two__block {
     padding: 36px 0px;
