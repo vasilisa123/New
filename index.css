@@ -315,21 +315,22 @@
     position: absolute;
     cursor: pointer;
     top: 0;
-    left: 0;
+    left: 12px;
     right: 0;
-    bottom: 0;
+    bottom: 4px;
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
+    margin-bottom: 5px;
 }
   
 .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
+    height: 20px;
+    width: 20px;
+    left: 1px;
+    bottom: 3px;
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
