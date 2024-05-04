@@ -28,6 +28,7 @@
     border-radius: 50%;
     border: 1px dashed rgba(117, 101, 125, 1);
     margin: 0px 16px;
+    background: none;
 }
 span {
     font-size: 12px;
