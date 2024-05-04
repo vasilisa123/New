@@ -6,15 +6,11 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    padding: 26px 16px;
 }
 .page__two__block input {
     width: 20px;
     margin: 12px 6px;
-
-}
-.page__two__block {
-    display: flex;
-    flex-direction: column;
 }
 .page__two__block ul {
     display: flex;
@@ -25,6 +21,8 @@
 }
 .page__two__block ul li {
     justify-content: space-between;
+    margin: 4px 0px -14px -2px;
+    padding: 0px;
 }
 .page__two__block ul li label {
     font-size: 12px;
@@ -33,8 +31,19 @@
 }
 .page__two__block ul li:last-child {
     width: 343px;
-    margin-top:36px ;
+    margin:47px 0px 0px 0px ;
     padding: 16px 0px;
-    border-top: 1px solid rgba(117, 101, 125, 0.2);
-    border-bottom: 1px solid rgba(117, 101, 125, 0.2);
+    border-top: 1px solid rgba(117, 101, 125, 0.1);
+    border-bottom: 1px solid rgba(117, 101, 125, 0.1);
+}
+.page__two__text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15.4px;
+}
+.switch {
+    margin-top: 3px;
+}
+.radio_button {
+    border: 1px solid rgba(117, 101, 125, 0.2);
 }
