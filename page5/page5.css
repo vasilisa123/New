@@ -22,10 +22,6 @@
     font-family: Montserrat;
     background: none;
 }
-.value:hover {
-    background: rgba(128, 89, 238, 1);
-    color: white;
-}
 .value.active {
     background: rgba(128, 89, 238, 1);
     color: white;
