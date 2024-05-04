@@ -1,3 +1,7 @@
+.page__two__block p {
+    font-size: 12px;
+    margin-top: 12px;
+}
 .main__block2 {
     display: flex;
 }
